@@ -1,0 +1,31 @@
+.center{
+    margin: auto;
+    width: 40%;
+    text-align: center; 
+}
+body{
+    background-color: aqua; 
+    font-family: monospace;
+    background-image: url(./burger.jpg);
+    background-size: 100%;
+}
+.burgerDiv{
+    background-color: lightgrey; 
+    padding: 4px;
+    width: 100%; 
+    margin-top: 4px; 
+    border-radius: 5px; 
+}
+
+.devoured {
+    background-color: lightgray; 
+    padding: 4px; 
+    width: 80%; 
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 4px; 
+}
+
+.btn-warning, .btn-primary{
+    border-radius: 5px;
+}
