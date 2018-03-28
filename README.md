@@ -13,7 +13,7 @@ This Application is a logger built with MySQL, Node, Express, Handlebars and usi
 
 ### Link to app
 
-[Burgers!](https://burger-order.herokuapp.com/); 
+[Burgers!](https://sequelize-burgerfg.herokuapp.com/); 
 
 
 ### DB
