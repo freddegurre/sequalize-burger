@@ -1,6 +1,6 @@
 # Burger application
 
-This Application is a logger built with MySQL, Node, Express, Handlebars and a homemade ORM. Its following the MVC design pattern, using Node and MySQL to query and route data in your app, and Handlebars to generate the HTML.
+This Application is a logger built with MySQL, Node, Express, Handlebars and using sequelize instead of ORM. Its following the MVC design pattern, using Node and MySQL to query and route data in your app, and Handlebars to generate the HTML.
 
 ### How does it work
 * Burger, is a restaurant app that lets users input the names of burgers they'd like to eat.
@@ -20,13 +20,11 @@ This Application is a logger built with MySQL, Node, Express, Handlebars and a h
 The database is a simple MySql with one table. **Burgers** 
 
 ### dependencies
-                "dependencies": {
-                    "body-parser": "^1.18.2",
-                    "express": "^4.16.3",
-                    "express-handlebars": "^3.0.0",
-                    "handlebars": "^4.0.11",
-                    "mysql": "^2.15.0"
-                }
+        "body-parser": "^1.18.2",
+        "express": "^4.16.3",
+        "express-handlebars": "^3.0.0",
+        "mysql2": "^1.5.3",
+        "sequelize": "^4.37.4"
 
 ###### Fredrik Gustafson
 

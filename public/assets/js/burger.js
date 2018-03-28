@@ -10,8 +10,9 @@ $(function(){
         $.ajax("/api/burger", {
             type: "POST", 
             data: newburg
-        }).then(function(){
+        }).then(function(data){
              console.log(newburg);
+             
              location.reload();
         });
        

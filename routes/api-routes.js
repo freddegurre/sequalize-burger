@@ -5,7 +5,6 @@ module.exports = function (app) {
     //get all burgers
     app.get("/", function (req, res) {
         db.Burger.findAll({}).then(function (result) {
-            console.log(result);
 
             var devoured = [];
             var burger = [];
@@ -33,7 +32,6 @@ module.exports = function (app) {
     });
 
     app.put("/api/burger", function (req, res) {
-        console.log(req.body.id);
         db.Burger.update({ devoured: true }, {
             where: {
                 id: req.body.id
